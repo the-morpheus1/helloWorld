@@ -24,15 +24,13 @@ const contactInfo = () => (
         <Col xs={12} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon2}
-            textLine1="+00 123 - 456 -78"
-            textLine2="+00 987 - 654 -32"
+            textLine1="+91 9409469530"
           />
         </Col>
         <Col xs={12} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon3}
-            textLine1="mint@mintmail.com"
-            textLine2=""
+            textLine1="vatsaldholakiya97@gmail.com"
           />
         </Col>
       </Row>

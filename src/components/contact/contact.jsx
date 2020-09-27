@@ -6,6 +6,8 @@ import Title from "../ui-components/title/title";
 import ContactInfo from './contactInfo/contactInfo';
 import ContactSocial from './contactInfo/contactSocial';
 import Modal from '../contact-modal/Modal';
+import { Map, GoogleApiWrapper } from 'google-maps-react';
+
 
 import ContactBackground from '../../assets/contact/bg.png';
 
@@ -21,6 +23,8 @@ class Contact extends React.Component {
       errorModal: false,
     };
   }
+
+
 
   inputHandler = (event) => {
     this.setState({ [event.target.name]: event.target.value });
@@ -85,8 +89,13 @@ class Contact extends React.Component {
   resetForm = () => {
     this.setState({ name: "", email: "", message: "" });
   };
+  
 
   render() {
+    const mapStyles = {
+      width: '100%',
+      height: '100%',
+    };
     let submitButtonRender = (
       <div className="small__button">
         <button aria-label="send message" type="submit" value="Send Message">
