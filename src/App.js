@@ -77,4 +77,5 @@ class App extends React.Component {
       </div>
     );
   }
-t App;
+}
+ export default App
