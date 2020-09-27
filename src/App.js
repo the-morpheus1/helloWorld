@@ -1,5 +1,5 @@
 import React from 'react';
-iimport './style/App.scss';
+import './style/App.scss';
 
 // Components
 import DesktopNav from './components/navbar/desktop-nav';
