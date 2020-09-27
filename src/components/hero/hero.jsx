@@ -26,7 +26,7 @@ const hero = () => (
         </Col>
         <Col md={12} lg={6}>
           <div className="hero-image">
-            <img src={HeroImage} alt="hero" />
+            <img src={"https://hello-world-images.s3.ap-south-1.amazonaws.com/Screenshot+from+2020-09-27+15-40-42.png"} alt="hero" />
           </div>
         </Col>
       </Row>
