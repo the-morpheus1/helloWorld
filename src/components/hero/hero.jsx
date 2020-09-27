@@ -15,7 +15,7 @@ const hero = () => (
           <div className="hero-info">
             <h1 className="weight800 font60">Hello!!!</h1>
             <h1 className="weight800 font60">
-              We Are Creative Digital Agency.
+              I am Vatsal Dholakiya.
             </h1>
             <p className="font12">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
